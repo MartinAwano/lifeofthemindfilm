@@ -276,6 +276,10 @@ ol {
 .w-embed:after {
   clear: both;
 }
+.hide-video{
+  position: absolute;
+  background-color: black;
+}
 .w-video {
   width: 100%;
   position: relative;
@@ -284,6 +288,7 @@ ol {
 .w-video iframe,
 .w-video object,
 .w-video embed {
+
   position: absolute;
   top: 0;
   left: 0;

@@ -1,3 +1,9 @@
+ videoHide = document.querySelector('.hide-video');
+  setTimeout(() => {
+                    videoHide.classList.remove('hide-video')
+
+                }, 2000)
+
 /*!
  * Webflow: Front-end site library
  * @license MIT
@@ -18442,7 +18448,7 @@ function send(event) {
  
     }  
 
-
+  
 
 
 
