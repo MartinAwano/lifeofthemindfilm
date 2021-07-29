@@ -7,7 +7,6 @@
 
  videoHide = document.querySelector('.hide-video');
   setTimeout(() => {
-     // document.getElementById("loading").style.display = "none";
     videoHide.classList.remove('hide-video')
     
 }, 1000)
