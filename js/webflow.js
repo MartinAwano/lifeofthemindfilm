@@ -1,8 +1,18 @@
+ 
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+
+
  videoHide = document.querySelector('.hide-video');
   setTimeout(() => {
-                    videoHide.classList.remove('hide-video')
+     // document.getElementById("loading").style.display = "none";
+    videoHide.classList.remove('hide-video')
+    
+}, 1000)
 
-                }, 2000)
+
 
 /*!
  * Webflow: Front-end site library
