@@ -3227,10 +3227,11 @@ blockquote {
     width: 100%;
   }
  .main-button {
+  height: 48px;
     text-align: center;
     float: unset;
     font-size: 14px;
-    margin-top: 53px;
+    margin-top: 51px;
     width: 40%;
   }
   .container-content.flip-pull {
