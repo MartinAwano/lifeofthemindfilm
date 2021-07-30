@@ -157,16 +157,6 @@ blockquote {
    -webkit-tap-highlight-color: transparent;
 
 }
-input,
-textarea,
-button,
-select,
-a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
-}
-
-
-
 
 .section{
   color: white;
