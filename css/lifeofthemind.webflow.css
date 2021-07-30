@@ -79,21 +79,27 @@ a {
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
   color: #000;
-  text-decoration: none;
+  text-decoration: none!important;
   /*text-decoration: underline;*/
 }
 
 a:hover {
   color: #000;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 a:focus {
   color: #000;
+  text-decoration: none!important;
 }
 
 a:visited {
   color: #000;
+  text-decoration: none!important;
+}
+
+a img{
+  text-decoration: none!important;
 }
 
 ul {
