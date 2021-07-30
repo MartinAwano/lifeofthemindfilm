@@ -139,10 +139,11 @@ blockquote {
   color: white;
 }
 .scroll-down img{ 
+  width: 45px;
   opacity: 1;
 }
 .scroll-down .text{ position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     opacity:0;
     color: white;}
 
@@ -3560,7 +3561,7 @@ transform: translateZ(0);
   .scroll-down {
     position: absolute;
     bottom: 20px;
-    left: 41%;
+    left: 42%;
     cursor: pointer;
 }
 
