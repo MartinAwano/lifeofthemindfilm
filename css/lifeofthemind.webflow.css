@@ -131,7 +131,7 @@ blockquote {
 .scroll-down {
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left: 49%;
     cursor: pointer;
 }
 .scroll-down a{
@@ -2903,6 +2903,12 @@ transform: translateZ(0);
   body {
     font-size: 15px;
   }
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 46%;
+    cursor: pointer;
+}
   
   .privacy-line p{
     font-size: 10px;
@@ -3548,12 +3554,6 @@ transform: translateZ(0);
 }
 
 @media screen and (max-width: 479px) {
-  .scroll-down {
-    position: absolute;
-    bottom: 20px;
-    left: 40%!important;
-    cursor: pointer;
- }
   body {
     line-height: 24px;
   }
