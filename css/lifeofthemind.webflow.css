@@ -79,27 +79,20 @@ a {
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
   color: #000;
-  text-decoration: none!important;
-  /*text-decoration: underline;*/
+  text-decoration: none;
 }
 
 a:hover {
   color: #000;
-  text-decoration: none!important;
+  text-decoration: none;
 }
 
 a:focus {
   color: #000;
-  text-decoration: none!important;
 }
 
 a:visited {
   color: #000;
-  text-decoration: none!important;
-}
-
-a img{
-  text-decoration: none!important;
 }
 
 ul {
@@ -135,7 +128,7 @@ blockquote {
   line-height: 22px;
 }
 
-/*.scroll-down {
+.scroll-down {
     position: absolute;
     bottom: 20px;
     left: 49%;
@@ -144,21 +137,25 @@ blockquote {
 .scroll-down a{
   text-decoration: none;
   color: white;
-}*/
+}
 .scroll-down img{ 
   width: 45px;
-  /*opacity: 1;*/
+  opacity: 1;
 }
-/*.scroll-down .text{ position: absolute;
+.scroll-down .text{ position: absolute;
     bottom: 10px;
     opacity:0;
-    color: white;}*/
+    color: white;}
 
-/*.scroll-down:hover img { background-color: none; text-decoration: none; opacity:0;}
-.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}*/
+.scroll-down:hover img { border: none; background-color: none; text-decoration: none; opacity:0;}
+.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
 
 .scroll-down:active{
  -webkit-tap-highlight-color: transparent;
+}
+
+a img{
+  border: none;
 }
 
 .section{
@@ -2908,13 +2905,13 @@ transform: translateZ(0);
   body {
     font-size: 15px;
   }
- /* .scroll-down {
+/*  .scroll-down {
     position: absolute;
     bottom: 20px;
     left: 45%;
     cursor: pointer;
-}*/
-  
+}
+  */
   .privacy-line p{
     font-size: 10px;
     margin-top: 162px;
@@ -3562,13 +3559,13 @@ transform: translateZ(0);
   body {
     line-height: 24px;
   }
-/*  .scroll-down {
+  .scroll-down {
     position: absolute;
     bottom: 20px;
     left: 42%;
     cursor: pointer;
 }
-*/
+
   h2 {
     line-height: 1.14em;
   }
