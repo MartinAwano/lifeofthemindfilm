@@ -140,19 +140,19 @@ blockquote {
 }
 .scroll-down img{ 
   width: 45px;
-  opacity: 1;
+  /*opacity: 1;*/
 }
-.scroll-down .text{ position: absolute;
+/*.scroll-down .text{ position: absolute;
     bottom: 10px;
     opacity:0;
-    color: white;}
+    color: white;}*/
 
-.scroll-down:hover img { background-color: none; text-decoration: none; opacity:0;}
-.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
+/*.scroll-down:hover img { background-color: none; text-decoration: none; opacity:0;}
+.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}*/
 
-/*.scroll-down:active{
+.scroll-down:active{
  -webkit-tap-highlight-color: transparent;
-}*/
+}
 
 .section{
   color: white;
