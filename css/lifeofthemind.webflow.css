@@ -2901,12 +2901,12 @@ transform: translateZ(0);
   body {
     font-size: 15px;
   }
-  .scroll-down {
+ /* .scroll-down {
     position: absolute;
     bottom: 20px;
     left: 45%;
     cursor: pointer;
-}
+}*/
   
   .privacy-line p{
     font-size: 10px;
@@ -3555,13 +3555,13 @@ transform: translateZ(0);
   body {
     line-height: 24px;
   }
-  .scroll-down {
+/*  .scroll-down {
     position: absolute;
     bottom: 20px;
     left: 42%;
     cursor: pointer;
 }
-
+*/
   h2 {
     line-height: 1.14em;
   }
