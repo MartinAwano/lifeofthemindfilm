@@ -128,7 +128,7 @@ blockquote {
   line-height: 22px;
 }
 
-.scroll-down {
+/*.scroll-down {
     position: absolute;
     bottom: 20px;
     left: 49%;
@@ -137,7 +137,7 @@ blockquote {
 .scroll-down a{
   text-decoration: none;
   color: white;
-}
+}*/
 .scroll-down img{ 
   width: 45px;
   /*opacity: 1;*/
