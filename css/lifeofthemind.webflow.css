@@ -2903,12 +2903,7 @@ transform: translateZ(0);
   body {
     font-size: 15px;
   }
-  .scroll-down {
-    position: absolute;
-    bottom: 20px;
-    left: 47%;
-    cursor: pointer;
- }
+  
   .privacy-line p{
     font-size: 10px;
     margin-top: 162px;
@@ -3553,6 +3548,12 @@ transform: translateZ(0);
 }
 
 @media screen and (max-width: 479px) {
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 40%!important;
+    cursor: pointer;
+ }
   body {
     line-height: 24px;
   }
