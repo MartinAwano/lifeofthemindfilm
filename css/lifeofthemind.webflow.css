@@ -127,6 +127,10 @@ blockquote {
   font-size: 18px;
   line-height: 22px;
 }
+.scroll-down img{
+  position: absolute;
+  bottom: 20px;
+}
 .section{
   color: white;
 }
