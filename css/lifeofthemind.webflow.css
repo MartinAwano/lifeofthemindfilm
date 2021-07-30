@@ -79,7 +79,8 @@ a {
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
+  /*text-decoration: underline;*/
 }
 
 a:hover {
