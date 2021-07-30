@@ -135,7 +135,6 @@ blockquote {
     cursor: pointer;
 }
 .scroll-down a{
-  -webkit-tap-highlight-color: transparent!important;
   text-decoration: none;
   color: white;
 }
@@ -148,14 +147,11 @@ blockquote {
     opacity:0;
     color: white;}
 
-.scroll-down:hover img { background-color: none; color: inherit; text-decoration: none; opacity:0;}
-.scroll-down:hover .text { background-color: none; color: inherit; text-decoration: none; opacity:1;}
+.scroll-down:hover img { background-color: none; text-decoration: none; opacity:0;}
+.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
 
 .scroll-down:active{
-  color: inherit; text-decoration: none; 
-  background-color: none;
-   -webkit-tap-highlight-color: transparent;
-
+ -webkit-tap-highlight-color: transparent;
 }
 
 .section{
