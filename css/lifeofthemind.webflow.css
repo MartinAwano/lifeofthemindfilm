@@ -3557,6 +3557,12 @@ transform: translateZ(0);
   body {
     line-height: 24px;
   }
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 41%;
+    cursor: pointer;
+}
 
   h2 {
     line-height: 1.14em;
