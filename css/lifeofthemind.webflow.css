@@ -2906,7 +2906,7 @@ transform: translateZ(0);
   .scroll-down {
     position: absolute;
     bottom: 20px;
-    left: 46%;
+    left: 45%;
     cursor: pointer;
 }
   
