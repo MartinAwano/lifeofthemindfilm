@@ -150,9 +150,9 @@ blockquote {
 .scroll-down:hover img { background-color: none; text-decoration: none; opacity:0;}
 .scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
 
-.scroll-down:active{
+/*.scroll-down:active{
  -webkit-tap-highlight-color: transparent;
-}
+}*/
 
 .section{
   color: white;
