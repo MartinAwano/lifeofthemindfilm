@@ -85,16 +85,19 @@ a {
 a:hover {
   color: #000;
   text-decoration: none;
+   border: none!important;
 }
 
 a:focus {
   color: #000;
-   text-decoration: none;
+  text-decoration: none;
+  border: none!important;
 }
 
 a:visited {
   color: #000;
    text-decoration: none;
+     border: none!important;
 }
 
 ul {
@@ -131,6 +134,7 @@ blockquote {
 }
 
 .scroll-down {
+  border: none;
     position: absolute;
     bottom: 20px;
     left: 49%;
@@ -139,10 +143,12 @@ blockquote {
 .scroll-down a{
   text-decoration: none;
   color: white;
+  border: none;
 }
 .scroll-down img{ 
   width: 45px;
   opacity: 1;
+  border: none;
 }
 .scroll-down .text{ position: absolute;
     bottom: 10px;
@@ -151,11 +157,15 @@ blockquote {
     text-decoration: none;}
 
 .scroll-down:hover img { border: none; background-color: none; text-decoration: none; opacity:0;}
-.scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
+.scroll-down:hover .text { border: none; background-color: none; text-decoration: none; opacity:1;}
 
 .scroll-down:active{
  -webkit-tap-highlight-color: transparent;
  text-decoration: none;
+ border: none;
+}
+.scroll-down:focus{
+  border: none!important;
 }
 
 .section{
@@ -1878,7 +1888,7 @@ blockquote {
 
 .blog-article a {
   display: inline-block;
- /* border-bottom: 1.5px solid #fecc23;*/
+  border-bottom: 1.5px solid #fecc23;
   line-height: 22px;
 }
 
@@ -2449,6 +2459,7 @@ transform: translateZ(0);
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   color: #fff;
+  border: none!important;
   overflow: hidden;
 }
 

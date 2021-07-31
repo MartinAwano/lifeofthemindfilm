@@ -404,6 +404,9 @@ label {
   border-color: #3898EC;
   outline: 0;
 }
+.a:focus{
+border:none;
+}
 .w-input[disabled],
 .w-select[disabled],
 .w-input[readonly],
