@@ -89,10 +89,12 @@ a:hover {
 
 a:focus {
   color: #000;
+   text-decoration: none;
 }
 
 a:visited {
   color: #000;
+   text-decoration: none;
 }
 
 ul {
@@ -145,17 +147,15 @@ blockquote {
 .scroll-down .text{ position: absolute;
     bottom: 10px;
     opacity:0;
-    color: white;}
+    color: white;
+    text-decoration: none;}
 
 .scroll-down:hover img { border: none; background-color: none; text-decoration: none; opacity:0;}
 .scroll-down:hover .text { background-color: none; text-decoration: none; opacity:1;}
 
 .scroll-down:active{
  -webkit-tap-highlight-color: transparent;
-}
-
-a img{
-  border: none;
+ text-decoration: none;
 }
 
 .section{
@@ -1878,7 +1878,7 @@ a img{
 
 .blog-article a {
   display: inline-block;
-  border-bottom: 1.5px solid #fecc23;
+ /* border-bottom: 1.5px solid #fecc23;*/
   line-height: 22px;
 }
 
