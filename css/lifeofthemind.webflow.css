@@ -578,7 +578,7 @@ blockquote {
   height: 55px;
   width: 29%;
   float: right;
-  background-color: #656e7f;
+  background-color: black;
   border: 1px solid white;
   color: white;
   -webkit-transition: background-color 300ms ease-in-out;
@@ -1317,9 +1317,18 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
 }
+#navbar2 {
+  background-color: rgb(0 0 0);
+  position: fixed;
+  top: -200px;
+  width: 100%;
+  left: 0;
+  display: block;
+  transition: top 0.6s;
+}
 
 .navbar-transparent.navbar-fixed {
-  position: fixed;
+  position: absolute;
   left: 0%;
   top: 0%;
   right: 0%;
