@@ -156,7 +156,7 @@ blockquote {
     color: white;
     text-decoration: none;}
 
-.scroll-down:hover img { border: none; background-color: none; text-decoration: none; opacity:0;}
+.scroll-down:hover img { border: none; background-color: none; text-decoration: none; opacity:1;}
 .scroll-down:hover .text { border: none; background-color: none; text-decoration: none; opacity:1;}
 
 .scroll-down:active{
