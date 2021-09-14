@@ -1,3 +1,14 @@
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 550) {
+      $(".navbar-fixed").css("background" , "black");
+    }
+    else{
+      $(".navbar-fixed").css("background" , "transparent");   
+    }
+  })
+})
 
 /*!
  * Webflow: Front-end site library
