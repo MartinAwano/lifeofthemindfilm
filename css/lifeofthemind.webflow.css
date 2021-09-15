@@ -578,7 +578,7 @@ blockquote {
   height: 55px;
   width: 29%;
   float: right;
-  background-color: black;
+  background-color: #656e7f;
   border: 1px solid white;
   color: white;
   -webkit-transition: background-color 300ms ease-in-out;
