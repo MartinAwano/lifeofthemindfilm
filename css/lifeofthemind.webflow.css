@@ -3583,6 +3583,14 @@ transform: translateZ(0);
     margin-bottom: 60px;
   }
 }
+@media screen and (max-width: 538px) {
+  #navbar{
+     display: none;
+  }
+#navbar2{
+  display: none;
+}
+  }
 
 @media screen and (max-width: 479px) {
   body {
