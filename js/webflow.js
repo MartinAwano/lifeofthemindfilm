@@ -18419,11 +18419,9 @@ module.exports = _nonIterableRest;
 function send(event) {
     event.preventDefault();     
     Email.send({    
-      Host : "smtp.gmail.com",
-      Username : "lifeofthemindfilm@gmail.com",
-      Password : "pbkyashqgjpjwlpg",
+      SecureToken : "f57dfbb8-0581-40bf-adf3-9afce62ac692",
       To : "lifeofthemindfilm@gmail.com",
-      From : document.getElementById('useremail').value,
+      From : "lifeofthemindfilm@gmail.com",
       Subject : 'Life of the Mind Subscriber',
       Body : document.getElementById('useremail').value
       }).then(function(response){ 
