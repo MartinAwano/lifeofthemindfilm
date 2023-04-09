@@ -18416,27 +18416,63 @@ module.exports = _nonIterableRest;
  */
 
 
+// function send(event) {
+//     event.preventDefault();     
+//     Email.send({    
+//       SecureToken : "f57dfbb8-0581-40bf-adf3-9afce62ac692",
+//       To : "lifeofthemindfilm@gmail.com",
+//       From : "lifeofthemindfilm@gmail.com",
+//       Subject : 'Life of the Mind Film Subscriber',
+//       Body : document.getElementById('useremail').value
+//       }).then(function(response){ 
+//        if (response == 'OK') {  
+//           document.getElementById('erroralert').style.display = 'none';               
+//           document.getElementById('successalert').style.display = 'block';
+//           document.getElementById('useremail').value = '';
+           
+//         } else { 
+//           document.getElementById('successalert').style.display = "none";
+//            document.getElementById('erroralert').style.display = 'block';      
+//         } 
+//      });
+ 
+//     }  
+
+function ValidateEmail(input) {
+
+ 
+
+}
+
 function send(event) {
-    event.preventDefault();     
-    Email.send({    
-      SecureToken : "f57dfbb8-0581-40bf-adf3-9afce62ac692",
-      To : "lifeofthemindfilm@gmail.com",
-      From : "lifeofthemindfilm@gmail.com",
-      Subject : 'Life of the Mind Subscriber',
-      Body : document.getElementById('useremail').value
-      }).then(function(response){ 
-       if (response == 'OK') {  
+    event.preventDefault(); 
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    let input = document.getElementById('useremail').value;
+    if (input.match(validRegex)) {
+      const serviceId="service_0tcnwbf"
+      const templateId="template_9z1dxfh";
+      var params = {
+        useremail:  document.getElementById('useremail').value,
+      }
+
+      emailjs
+      .send(serviceId, templateId, params)
+      .then((res)=> {
           document.getElementById('erroralert').style.display = 'none';               
           document.getElementById('successalert').style.display = 'block';
-          document.getElementById('useremail').value = '';
-           
-        } else { 
-          document.getElementById('successalert').style.display = "none";
-           document.getElementById('erroralert').style.display = 'block';      
-        } 
-     });
- 
-    }  
+          document.getElementById('useremail').value = '';   
+      })
+      .catch((err)=> {
+        console.log(err);
+        document.getElementById('successalert').style.display = "none";
+        document.getElementById('erroralert').style.display = 'block';   
+      })
+  
+    } else {
+      document.getElementById('successalert').style.display = "none";
+      document.getElementById('erroralert').style.display = 'block';   
+    }
+}
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
 
