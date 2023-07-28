@@ -3,8 +3,9 @@
   font-family: headfont;
   src: url("benegraphic/beneg___.ttf");
 }
-.navigation-bar-center span{
-  font-family:headfont;
+.navigation-bar-center p{
+  font-family: headfont;
+  width: 176px;
   font-size: 50px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -2560,6 +2561,28 @@ transform: translateZ(0);
   color: #fff;
   text-align: center;
 }
+.navigation-bar-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+img.overlay1 {
+  max-width: 246px;
+  max-height: 115px;
+}
+img.overlay2 {
+  padding-left: 17px;
+  max-width: 243px;
+  max-height: 70px;
+  margin-top: 2px;
+}
+img.overlay3 {
+  margin-left: 38px;
+  margin-top: -16px;
+  max-width: 165px;
+  max-height: 72px;
+}
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -3001,9 +3024,9 @@ transform: translateZ(0);
 }
 
 @media screen and (max-width: 767px) {
-  .navigation-bar-center span{
+  /* .navigation-bar-center span{
     font-size: 40px;
-  }
+  } */
   body {
     font-size: 15px;
   }
@@ -3657,12 +3680,12 @@ transform: translateZ(0);
   }
 }
 @media screen and (max-width: 538px) {
-  .navigation-bar-center span{
+  /* .navigation-bar-center p{
     font-size: 25px;
     font-weight: 10px;
-  }
+  } */
   .navigation-bar-menu {
-    margin-top: 32px;
+    margin-top: 42px;
     font-size: 11px;
   }
   /* #navbar{
@@ -3674,9 +3697,9 @@ transform: translateZ(0);
   }
 
 @media screen and (max-width: 479px) {
-  .navigation-bar-center span{
+  /* .navigation-bar-center span{
     font-size: 20px;
-  }
+  } */
   body {
     line-height: 24px;
   }
