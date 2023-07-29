@@ -149,26 +149,6 @@ blockquote {
    transform: translateX(-50%);
    bottom: 5%; 
 }
-img.overlay1 {
-  width: 293px;
-  height: 158px;
-  display: block;
-}
-img.overlay2 {
-  padding-left: 17px;
-  width: 276px;
-  height: 80px;
-  margin-top: 0px;
-  display: block;
-}
-img.overlay3 {
-  margin-left: 48px;
-  margin-top: -14px;
-  width: 183px;
-  height: 88px;
-  display: block;
-}
-
 .scroll-down {
   border: none;
     position: absolute;
@@ -2572,18 +2552,21 @@ transform: translateZ(0);
 img.overlay1 {
   max-width: 293px;
   max-height: 158px;
+  display: block;
 }
 img.overlay2 {
   padding-left: 17px;
   max-width: 276px;
   max-height: 80px;
   margin-top: 0px;
+  display: block;
 }
 img.overlay3 {
   margin-left: 48px;
   margin-top: -14px;
   max-width: 183px;
   max-height: 88px;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -4029,6 +4012,27 @@ img.overlay3 {
   .heading-2 {
     font-size: 36px;
     text-align: center;
+  }
+}
+@media screen and (max-height: 479px) {
+  img.overlay1 {
+    max-width: 293px;
+    max-height: 158px;
+    display: inline;
+  }
+  img.overlay2 {
+    padding-left: 17px;
+    max-width: 276px;
+    max-height: 80px;
+    margin-top: 0px;
+    display: inline;
+  }
+  img.overlay3 {
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 183px;
+    max-height: 88px;
+    display: inline;
   }
 }
 
