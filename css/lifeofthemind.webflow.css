@@ -7,7 +7,7 @@
   font-family: headfont;
   width: 176px;
   font-size: 50px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
@@ -393,7 +393,7 @@ img.overlay3 {
   align-items: center;
   position: absolute;
   margin-top: 50px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .navigation-bar-social {
