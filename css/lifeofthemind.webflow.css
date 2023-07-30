@@ -144,10 +144,13 @@ blockquote {
   line-height: 22px;
 }
 .down-image-panel {
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
-   bottom: 5%; 
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   margin-top: 100px;
+   flex-grow: 1;
 }
 .scroll-down {
   border: none;
@@ -2527,6 +2530,10 @@ transform: translateZ(0);
   -ms-flex: 1;
   flex: 1;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  position: relative;
 }
 .font-change img{
     font-family: 'Josefin Sans', sans-serif;
@@ -2562,7 +2569,6 @@ img.overlay2 {
   display: block;
 }
 img.overlay3 {
-  margin-left: 48px;
   margin-top: -14px;
   max-width: 183px;
   max-height: 88px;
@@ -4036,7 +4042,8 @@ img.overlay3 {
   }
 } */
 @media screen and (max-height: 479px) {
-  img.overlay1 {
+
+  /* img.overlay1 {
     max-width: 293px;
     max-height: 158px;
     display: inline;
@@ -4054,6 +4061,6 @@ img.overlay3 {
     max-width: 183px;
     max-height: 88px;
     display: inline;
-  }
+  } */
 
 }
