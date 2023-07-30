@@ -7,7 +7,7 @@
   font-family: headfont;
   width: 176px;
   font-size: 50px;
-  /* margin-left: 10px; */
+  margin-left: 10px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
@@ -373,7 +373,7 @@ blockquote {
   align-items: center;
   position: absolute;
   margin-top: 50px;
-  /* margin-left: 10px; */
+  margin-left: 10px;
 }
 
 .navigation-bar-social {
@@ -4014,6 +4014,27 @@ img.overlay3 {
     text-align: center;
   }
 }
+/* @media (min-width: 400px) and (max-width: 2000px) and (min-height: 200px) and (max-height: 480px) {
+  img.overlay1 {
+    max-width: 293px;
+    max-height: 158px;
+    display: inline;
+  }
+  img.overlay2 {
+    padding-left: 17px;
+    max-width: 276px;
+    max-height: 80px;
+    margin-top: 0px;
+    display: inline;
+  }
+  img.overlay3 {
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 183px;
+    max-height: 88px;
+    display: inline;
+  }
+} */
 @media screen and (max-height: 479px) {
   img.overlay1 {
     max-width: 293px;
@@ -4034,5 +4055,5 @@ img.overlay3 {
     max-height: 88px;
     display: inline;
   }
-}
 
+}
