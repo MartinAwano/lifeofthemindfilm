@@ -149,8 +149,9 @@ blockquote {
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   margin-top: 100px;
-   flex-grow: 1;
+   /* margin-top: 300px; */
+   height: 850px;
+   
 }
 .scroll-down {
   border: none;
@@ -2520,6 +2521,31 @@ transform: translateZ(0);
   border: none!important;
   overflow: hidden;
 }
+.hero-overlay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/Life-of-the-Mind.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/Life-of-the-Mind.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  color: #fff;
+  border: none!important;
+  overflow: hidden;
+}
 
 .centered-container {
   -webkit-align-self: flex-start;
@@ -2530,10 +2556,14 @@ transform: translateZ(0);
   -ms-flex: 1;
   flex: 1;
   text-align: center;
-  display: flex;
+  overflow-x: hidden;
+  /* box-sizing: border-box; */
+  /* box-sizing: border-box;
+  overflow-x: hidden; */
+  /* display: flex;
   flex-direction: column;
-  height: 86vh;
-  position: relative;
+  height: 92vh;
+  position: relative; */
 }
 .font-change img{
     font-family: 'Josefin Sans', sans-serif;
