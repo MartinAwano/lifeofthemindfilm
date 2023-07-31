@@ -2336,7 +2336,7 @@ transform: translateZ(0);
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  min-height: 1000px;
+  min-height: 970px;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
