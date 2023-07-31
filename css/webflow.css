@@ -952,7 +952,8 @@ textarea.w-select {
 .w-background-video {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 100vh;
+  /* max-height: 1800px; */
   color: white;
 }
 .w-background-video > video {

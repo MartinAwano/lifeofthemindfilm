@@ -143,11 +143,6 @@ blockquote {
   font-size: 18px;
   line-height: 22px;
 }
-.video-container {
-  position: relative;
-  top: -100px;
-  min-height: calc(100vh -100px);
-}
 .down-image-panel {
    position: absolute;
    left: 50%;
@@ -2341,8 +2336,7 @@ transform: translateZ(0);
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  /* min-height: 100vh; */
-  min-height: 940px;
+  min-height: 1000px;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
@@ -2499,7 +2493,10 @@ transform: translateZ(0);
 .heading {
   font-weight: 400;
 }
-   
+.video-container {
+  position: relative;
+  margin-top: auto;
+}
 .hero-overlay{
   display: -webkit-box;
   display: -webkit-flex;
