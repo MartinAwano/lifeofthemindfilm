@@ -2336,7 +2336,7 @@ transform: translateZ(0);
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  min-height: 970px;
+  min-height: 1000px;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
@@ -3656,6 +3656,9 @@ img.overlay3 {
     bottom: 20px;
     left: 42%;
     cursor: pointer;
+  }
+  .background-video.hero {
+    min-height: 890px;
   }
   /* img.overlay1 {
     max-width: 293px;
